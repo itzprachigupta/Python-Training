@@ -1,0 +1,26 @@
+'''First Class Of Python'''
+a=16 
+b='class'
+c=10.34
+print('a=',a)
+print("b=",b)
+print("c=",c)
+print("id of a=",id(a))
+print("id of b=",id(b))
+print("id of c=",id(c))
+print(type(a))
+print(type(b))
+print(type(c))
+print(bin(a))
+print(oct(a))
+print(hex(a))
+print("c =",int(c))
+print("c =",float(c))
+print("c =",complex(c))
+print("c =",bool(c))
+print("c =",str(c))
+print(len(b))
+print(b[0:3])
+print(b[-3:])
+print(b[0:5:2])
+print(b[::-1])
