@@ -1,4 +1,4 @@
-'''Assignment 3'''
+print("'''Assignment 3'''")
 print("Problem 1")
 def a_fun():
     global name

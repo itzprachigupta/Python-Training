@@ -1,4 +1,4 @@
-'''Assignment 2'''
+print("'''Assignment 2'''")
 print("Answer 1")
 print("Checking palindrome")
 string=input("Enter the string ")

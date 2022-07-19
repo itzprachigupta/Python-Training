@@ -173,6 +173,13 @@ def to_upper(string):
 string0=input("Enter the string:")
 print(to_upper(string0))
 print("*****************************************")
+print("Answer 22")
+str1='Python Training\n'
+str2='1 Month'
+print(str1)
+print(str2)
+print(str1.rstrip())
+print(str2)
 print("Answer 23")
 string="India is my country"
 first=string[0]
