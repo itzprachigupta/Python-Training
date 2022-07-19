@@ -1,0 +1,49 @@
+Problem 1
+A
+**************************************
+Problem 2
+global :  10
+Inside f() :  10
+global :  10
+Inside g() :  20
+global :  10
+Inside h() :  30
+global :  30
+**************************************
+Problem 3
+in a_func a_var = 15
+in a_func b_var = 115
+in a_func d_var = 30
+in a_func e_var = 25
+a_var = 10
+b_var = 15
+c_var = 125
+d_var = 100
+**************************************
+Problem 4
+42 17 4 17
+42 15 3 4
+**************************************
+Problem 5
+x in main:  3
+**************************************
+Problem 6
+Ludhiana
+Ludhiana
+Chandigarh
+Chandigarh
+Haryana
+**************************************
+Problem 7
+1 aaa 10000.56
+111 ratan 10000.45
+111 ratan 10000.45
+**************************************
+Problem 8
+6
+300
+30
+16
+300
+200
+**************************************

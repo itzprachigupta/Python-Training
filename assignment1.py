@@ -1,5 +1,5 @@
 print("Assignment 1 !")
-'''print("Answer 1")
+print("Answer 1")
 string=input("Enter a string: ")
 print("Length of string =",len(string))
 print("*****************************************")
@@ -160,7 +160,7 @@ if(len(string)%4==0):
    print(string[::-1])
 else:
    print("not a multiple of 4")
-print("*****************************************")'''
+print("*****************************************")
 print("Answer 21")
 def to_upper(string):
   upp=0
