@@ -1,5 +1,5 @@
 '''Day 3 !!!'''
-'''print("Checking palindrome")
+print("Checking palindrome")
 string=input("Enter the string ")
 string1= string[::-1]
 if(string==string1):
@@ -20,7 +20,7 @@ if(temp==rev):
  print("Palindrome")
 else:
  print("Not a Palindrome")
-print("**************************************")'''
+print("**************************************")
 print("LIST")
 l=['a','c','d']
 print(l)

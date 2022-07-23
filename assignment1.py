@@ -75,7 +75,7 @@ print("Length of the longest word: ",result[0])
 print("*****************************************")
 print("Answer 9")
 str="online tutorial is best"
-n=input("Enter the index)
+n=int(input("Enter the index"))
 first_part= str[0:n]
 second_part= str[n+1:]
 print(first_part + " " + second_part)
@@ -180,6 +180,7 @@ print(str1)
 print(str2)
 print(str1.rstrip())
 print(str2)
+print("*****************************************")
 print("Answer 23")
 string="India is my country"
 first=string[0]
