@@ -1,0 +1,52 @@
+Example 1
+Tiger implementation ...
+lion implementation ...
+****************************************************
+Example 2
+52
+420
+****************************************************
+Example 3
+Enter your age: 25
+eligible for mrg
+finally block....
+****************************************************
+Example 4
+Enter your age: 
+45
+Eligible for mrg
+****************************************************
+Example 5
+Enter Age:45
+we will find one girl soon
+****************************************************
+Example 6
+outer try block
+enter a number45
+0.2222222222222222
+inner try
+anupreet
+inner no exception
+outer no excepiton
+finally block
+****************************************************
+Example 7
+komal addanki
+komal addanki, 111
+****************************************************
+Example 8
+kamalpreet gurpreet
+kamalpreet gurpreet 111
+****************************************************
+Example 9
+Vehicle object destroyed
+Exception ignored in: <function Vehicle.__del__ at 0x00000269887DBC10>
+Traceback (most recent call last):
+  File "C:/Users/Lenovo/Documents/Training/assignment4.py", line 165, in __del__
+    print(10/0)
+ZeroDivisionError: division by zero
+****************************************************
+Example 10
+enter amount to deposit1000
+enter amount to withdraw5000
+6000
