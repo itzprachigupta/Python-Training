@@ -1,0 +1,16 @@
+Day 4
+Learning about Git and Git hub and how to add files to git hub repository
+Step 1: Download GIT BASH and create an account on Github.
+Step 2: Open Git Bash and type following commands:-
+        i-ls (to get list of all files present)
+        ii-cd "location of file repository which you want to add to git hub"
+        iii-git init (to initialize empty Git repository in location)
+        iv-git status (to check the status of files)
+        v-git remote add origin "list of Git hub repository"
+        vi-git remote -v
+        vii-git add . (to add all files)/git add filename.extension (to add specific file)
+        viii-git status
+        ix-git commit -m"comments"
+        x-git status
+        xi-git push origin master
+Step 3: Check Git hub repository to see files.
