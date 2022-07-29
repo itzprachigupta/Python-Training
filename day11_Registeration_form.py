@@ -12,6 +12,7 @@ def database():
     mycursor.execute("insert into input values (%s,%s,%s,%s,%s,%s)",(ent1.get(),ent2.get(),ent3.get(),ent4.get(),c.get(),var.get()))
     messagebox.showinfo("INFO","Registered")
     conn.commit()
+
 reg=Tk()
 reg.geometry("400x500")
 reg.resizable(0,0)
@@ -45,8 +46,8 @@ lab5.place(x=90,y=300)
 list_of_branches=["CSE","IT","ECE","ME","CIVIL","OTHER"]
 c=StringVar()
 droplist=OptionMenu(reg,c,*list_of_branches)
-droplist.config(width=20,bd=2,highlightbackground='black', highlightcolor='black', highlightthickness=1)
-c.set("SELECT YOUR BRANCH",)
+droplist.config(width=9,bd=2,highlightbackground='black', highlightcolor='black', highlightthickness=1)
+c.set("Select...",)
 droplist.place(x=220,y=300)
 
 lab6=Label(reg,text='Gender:',fg='white',bg="black",width=15,height=1,bd=2,highlightbackground='black', highlightcolor='black', highlightthickness=1)
@@ -54,13 +55,8 @@ lab6.place(x=90,y=350)
 var=IntVar()
 Radiobutton(reg,text="Male",padx=2,variable=var,value=1).place(x=220,y=350)
 Radiobutton(reg,text="Female",padx=2,variable=var,value=2).place(x=280,y=350)
-#def clicked(): #fxn that will execute the button click event
-#    messagebox.showinfo("Notification","Registered")
-    
-#Button is used to create button and fg is used to change text color and bg is used to change back ground color of button
-#wiring the button with fxn
+
 log=Button(reg,text='Register',fg='Black',bg='light blue',command=database,width=15,height=1,bd=2,highlightbackground='black', highlightcolor='black', highlightthickness=1)
 log.place(x=150,y=400)
-
 
 reg.mainloop()

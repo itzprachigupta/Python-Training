@@ -1,6 +1,4 @@
 from tkinter import *
-from math import *
-from turtle import color
 expression=""
 
 window = Tk()
