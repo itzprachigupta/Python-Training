@@ -1,0 +1,11 @@
+This is a demo file to perform different file handling operations.
+This is append function
+writing in r+ mode
+writing
+using
+writelines
+
+writing in a+ mode
+writing
+using
+writelines
